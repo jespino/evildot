@@ -20,7 +20,7 @@ bar-value
 >>> x.foo
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  AttributeError: 'dict' object has no attribute 'foo'
+AttributeError: 'dict' object has no attribute 'foo'
 ```
 
 You can use it as a context manager too (*Warning*: this change the dict
@@ -36,5 +36,5 @@ foo-value
 >>> x.foo
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  AttributeError: 'dict' object has no attribute 'foo'
+AttributeError: 'dict' object has no attribute 'foo'
 ```
